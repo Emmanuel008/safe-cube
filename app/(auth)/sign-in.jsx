@@ -8,7 +8,7 @@ export default function SingnIn() {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView contentContainerStyle={{ flexGrow: 1 }} className="relative">
-        <View className="bg-green-300 h-full opacity-90">
+        <View className="bg-primary h-full opacity-90">
           <Image
             source={images.image2}
             className="w-[260px] h-[260px] absolute top-0 right-0 z-50"
@@ -18,8 +18,8 @@ export default function SingnIn() {
             className="w-[180px] h-[280px] -rotate-90 top-16 -right-64 z-50"
           />
           <View className="flex justify-center  p-5 ">
-            <Text className="text-blue-900 text-2xl font-bold">Hello!</Text>
-            <Text className="text-blue-900 text-3xl">
+            <Text className="text-secondary text-2xl font-bold">Hello!</Text>
+            <Text className="text-secondary text-3xl">
               Let's Handle your Laguages
             </Text>
 
@@ -27,7 +27,7 @@ export default function SingnIn() {
             <FormField title="Password" />
             <TouchableOpacity
               onPress={() => router.push("/sign-in")}
-              className="bg-blue-900 rounded-full px-3 py-4 justify-center items-center mt-5"
+              className="bg-secondary rounded-full px-3 py-4 justify-center items-center mt-5"
             >
               <Text className="text-white font-bold text-xl">Login</Text>
             </TouchableOpacity>
